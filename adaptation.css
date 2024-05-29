@@ -1,0 +1,43 @@
+@media (max-width: 630px){
+    .str1,.str2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .num1,.num2,.num3,.num4{
+        width: none;
+        align-self: self-start;
+        padding-bottom: 5vw;
+    }
+
+    .text5,.text7{
+        width: 400px;
+    }
+
+    .BUKVY{
+        margin-top: 0%;
+    }
+
+    .check{
+        flex-direction: column;
+    }
+    .TXT{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 840px){
+    .blk1,.blk2{
+        flex-direction: column;
+        padding-bottom: 3vw;
+        padding-left: 3vw;
+    }
+}
+
+@media (max-width: 450px){
+   /* .end{
+        flex-direction: column;
+   } */
+}
